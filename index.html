@@ -4,47 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Barbearia (Nome)</title>
+    <title> Barbearia </title>
     <link rel="stylesheet" href="style.css"> <!-- Se tiver um arquivo de estilo -->
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="caixa">
+            <h1><img scr="logo.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="produtos.html"> Produtos</a></li>
+                    <li><a href="contato.html"> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section>
-        <h1>Produtos da Barbearia</h1>
-        <p>Confira os produtos que temos disponíveis para os nossos clientes.</p>
+    <main>
+        <div class="principal">
+            <h2>Sobre a barbearia</h2>
+            <p>Localizada no coração da cidade a <strong>
+                <a href="https://share.google/ajmPUVkMjm0ef8jnF">Barbearia</a></strong> traz para o mercado o que   há  de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-        <div class="produtos">
-            <div class="produto">
-                <img src="banner.jpg" alt="Produto 1">
-                <h2>Shampoo para cabelo</h2>
-                <p>Descrição do produto 1.</p>
-                <p>Preço: R$ 30,00</p>
-                <button>Comprar</button>
-            </div>
-            <div class="produto">
-                <img src="produto2.jpg" alt="Produto 2">
-                <h2>Pomada de cabelo</h2>
-                <p>Descrição do produto 2.</p>
-                <p>Preço: R$ 25,00</p>
-                <button>Comprar</button>
-            </div>
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
 
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
         </div>
-    </section>
+
+        <div class="beneficios">
+            <h3 class="centralizado">beneficios</h3>
+            <ul>
+                <li class="itens">Atendimento</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">localização</li>
+                <li class="itens">Profissionais Qualificados</li>
+            </ul>
+            <img src="beneficios.jpg" class="imgbeneficios">
+        </div>
+    </main>
 
     <footer>
-        <p> &copy; 2026 Barbearia Naju. Todos os direitos reservados.</p>
+        <p> &copy; 2026 Barbearia Bia. Todos os direitos reservados.</p>
     </footer>
 </body>
 
